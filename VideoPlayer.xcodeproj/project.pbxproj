@@ -14,6 +14,8 @@
 		970BA67522E7354C00CD9821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970BA67322E7354C00CD9821 /* LaunchScreen.storyboard */; };
 		970BA68022E7354C00CD9821 /* VideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BA67F22E7354C00CD9821 /* VideoPlayerTests.swift */; };
 		970BA68B22E7354C00CD9821 /* VideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BA68A22E7354C00CD9821 /* VideoPlayerUITests.swift */; };
+		970BA69922E7390000CD9821 /* VideoPlayerDoubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BA69822E7390000CD9821 /* VideoPlayerDoubleViewController.swift */; };
+		970BA69B22E741AA00CD9821 /* QSTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BA69A22E741AA00CD9821 /* QSTPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		970BA68622E7354C00CD9821 /* VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		970BA68A22E7354C00CD9821 /* VideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITests.swift; sourceTree = "<group>"; };
 		970BA68C22E7354C00CD9821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970BA69822E7390000CD9821 /* VideoPlayerDoubleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerDoubleViewController.swift; sourceTree = "<group>"; };
+		970BA69A22E741AA00CD9821 /* QSTPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSTPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				970BA67122E7354C00CD9821 /* Assets.xcassets */,
 				970BA67322E7354C00CD9821 /* LaunchScreen.storyboard */,
 				970BA67622E7354C00CD9821 /* Info.plist */,
+				970BA69822E7390000CD9821 /* VideoPlayerDoubleViewController.swift */,
+				970BA69A22E741AA00CD9821 /* QSTPlayerViewController.swift */,
 			);
 			path = VideoPlayer;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970BA69B22E741AA00CD9821 /* QSTPlayerViewController.swift in Sources */,
 				970BA66D22E7354A00CD9821 /* ViewController.swift in Sources */,
 				970BA66B22E7354A00CD9821 /* AppDelegate.swift in Sources */,
+				970BA69922E7390000CD9821 /* VideoPlayerDoubleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
