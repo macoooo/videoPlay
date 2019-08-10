@@ -16,6 +16,14 @@
 		970BA68B22E7354C00CD9821 /* VideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BA68A22E7354C00CD9821 /* VideoPlayerUITests.swift */; };
 		970BA69922E7390000CD9821 /* VideoPlayerDoubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BA69822E7390000CD9821 /* VideoPlayerDoubleViewController.swift */; };
 		970BA69B22E741AA00CD9821 /* QSTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BA69A22E741AA00CD9821 /* QSTPlayerViewController.swift */; };
+		970CE19322FB11990024A1BD /* VPPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970CE19222FB11990024A1BD /* VPPlayer.swift */; };
+		970D035B22F1B7BB00A1F2C9 /* VPPlayerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D035A22F1B7BB00A1F2C9 /* VPPlayerTool.swift */; };
+		970D359322FC2210000ADB31 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D359222FC2210000ADB31 /* GlobalConst.swift */; };
+		970E652E22EF1A56001A5956 /* KJPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 970E652D22EF1A56001A5956 /* KJPlayerView.bundle */; };
+		970E653B22EF2567001A5956 /* VideoPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E653A22EF2567001A5956 /* VideoPlayView.swift */; };
+		970E653D22EF2D3D001A5956 /* VideoPlayerViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E653C22EF2D3D001A5956 /* VideoPlayerViewConfiguration.swift */; };
+		970E884A22FD954C00D2631B /* VPRequestTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E884922FD954C00D2631B /* VPRequestTask.swift */; };
+		97152A8D22FD576600B1B764 /* VPPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97152A8C22FD576600B1B764 /* VPPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		970BA68C22E7354C00CD9821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		970BA69822E7390000CD9821 /* VideoPlayerDoubleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerDoubleViewController.swift; sourceTree = "<group>"; };
 		970BA69A22E741AA00CD9821 /* QSTPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSTPlayerViewController.swift; sourceTree = "<group>"; };
+		970CE19222FB11990024A1BD /* VPPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPPlayer.swift; sourceTree = "<group>"; };
+		970D035A22F1B7BB00A1F2C9 /* VPPlayerTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPPlayerTool.swift; sourceTree = "<group>"; };
+		970D359122FC2085000ADB31 /* VideoPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		970D359222FC2210000ADB31 /* GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		970E652D22EF1A56001A5956 /* KJPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KJPlayerView.bundle; sourceTree = "<group>"; };
+		970E653A22EF2567001A5956 /* VideoPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayView.swift; sourceTree = "<group>"; };
+		970E653C22EF2D3D001A5956 /* VideoPlayerViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewConfiguration.swift; sourceTree = "<group>"; };
+		970E884922FD954C00D2631B /* VPRequestTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPRequestTask.swift; sourceTree = "<group>"; };
+		97152A8C22FD576600B1B764 /* VPPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPPlayerView.swift; sourceTree = "<group>"; };
+		9716F9AD22F9B70F00D9B10C /* VPPlayerViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPPlayerViewHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +119,22 @@
 		970BA66922E7354A00CD9821 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				970E652D22EF1A56001A5956 /* KJPlayerView.bundle */,
 				970BA66A22E7354A00CD9821 /* AppDelegate.swift */,
 				970BA66C22E7354A00CD9821 /* ViewController.swift */,
 				970BA66E22E7354A00CD9821 /* Main.storyboard */,
 				970BA67122E7354C00CD9821 /* Assets.xcassets */,
 				970BA67322E7354C00CD9821 /* LaunchScreen.storyboard */,
 				970BA67622E7354C00CD9821 /* Info.plist */,
-				970BA69822E7390000CD9821 /* VideoPlayerDoubleViewController.swift */,
-				970BA69A22E741AA00CD9821 /* QSTPlayerViewController.swift */,
+				970E700622FC53A10037D5C8 /* smallPlay */,
+				970E653C22EF2D3D001A5956 /* VideoPlayerViewConfiguration.swift */,
+				9716F9AD22F9B70F00D9B10C /* VPPlayerViewHeader.h */,
+				970D035A22F1B7BB00A1F2C9 /* VPPlayerTool.swift */,
+				970CE19222FB11990024A1BD /* VPPlayer.swift */,
+				970D359122FC2085000ADB31 /* VideoPlayer-Bridging-Header.h */,
+				970D359222FC2210000ADB31 /* GlobalConst.swift */,
+				97152A8C22FD576600B1B764 /* VPPlayerView.swift */,
+				970E884922FD954C00D2631B /* VPRequestTask.swift */,
 			);
 			path = VideoPlayer;
 			sourceTree = "<group>";
@@ -129,6 +155,16 @@
 				970BA68C22E7354C00CD9821 /* Info.plist */,
 			);
 			path = VideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		970E700622FC53A10037D5C8 /* smallPlay */ = {
+			isa = PBXGroup;
+			children = (
+				970BA69822E7390000CD9821 /* VideoPlayerDoubleViewController.swift */,
+				970BA69A22E741AA00CD9821 /* QSTPlayerViewController.swift */,
+				970E653A22EF2567001A5956 /* VideoPlayView.swift */,
+			);
+			path = smallPlay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +235,7 @@
 				TargetAttributes = {
 					970BA66622E7354A00CD9821 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					970BA67A22E7354C00CD9821 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -235,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970E652E22EF1A56001A5956 /* KJPlayerView.bundle in Resources */,
 				970BA67522E7354C00CD9821 /* LaunchScreen.storyboard in Resources */,
 				970BA67222E7354C00CD9821 /* Assets.xcassets in Resources */,
 				970BA67022E7354A00CD9821 /* Main.storyboard in Resources */,
@@ -263,9 +301,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				970BA69B22E741AA00CD9821 /* QSTPlayerViewController.swift in Sources */,
+				970E884A22FD954C00D2631B /* VPRequestTask.swift in Sources */,
+				97152A8D22FD576600B1B764 /* VPPlayerView.swift in Sources */,
+				970D359322FC2210000ADB31 /* GlobalConst.swift in Sources */,
+				970D035B22F1B7BB00A1F2C9 /* VPPlayerTool.swift in Sources */,
 				970BA66D22E7354A00CD9821 /* ViewController.swift in Sources */,
+				970E653D22EF2D3D001A5956 /* VideoPlayerViewConfiguration.swift in Sources */,
+				970CE19322FB11990024A1BD /* VPPlayer.swift in Sources */,
 				970BA66B22E7354A00CD9821 /* AppDelegate.swift in Sources */,
 				970BA69922E7390000CD9821 /* VideoPlayerDoubleViewController.swift in Sources */,
+				970E653B22EF2567001A5956 /* VideoPlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +485,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = MBTAFW6RX9;
 				INFOPLIST_FILE = VideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,6 +496,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.VideoPlayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/qiangshuting/Desktop/iOS 音视频/VideoPlayer/VideoPlay/VideoPlayer/VideoPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +507,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = MBTAFW6RX9;
 				INFOPLIST_FILE = VideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,6 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.VideoPlayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/qiangshuting/Desktop/iOS 音视频/VideoPlayer/VideoPlay/VideoPlayer/VideoPlayer-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

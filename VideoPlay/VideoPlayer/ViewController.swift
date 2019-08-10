@@ -22,13 +22,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         let tableView = UITableView(frame: view.bounds, style: .grouped)
         tableView.backgroundColor = UIColor.white
         view.addSubview(tableView)
         tableView.dataSource = self
         tableView.delegate = self
         tableView .register(UITableViewCell.self, forCellReuseIdentifier: "playerCell")
+        
+
         
         // Do any additional setup after loading the view.
     }
@@ -47,10 +48,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
-            
+            let videoPlayerController = QSTPlayerViewController()
+            self.navigationController?.pushViewController(videoPlayerController, animated: true)
         } else {
             let playerViewController = VideoPlayerDoubleViewController()
-            print(playerViewController.navigationController)
+     
             NSLog("self.navigationController=\(String(describing: self.navigationController))")
             self.navigationController?.pushViewController(playerViewController, animated: true)
         }
